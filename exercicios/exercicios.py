@@ -29,14 +29,18 @@ print('O valor da sua comissão foi ', comissao)
 
 
 # O que fazer: Faça um programa que receba o valor de três vendas, calcule e mostre a média aritmética entre elas. 
-
+primeira_venda=input("qual foi o valor da primeira venda" )
 # Exercício 3: Alerta de Grande Negócio
 # Cenário de Vendas: Na sua empresa, qualquer venda acima de R$ 50.000,00 precisa de uma aprovação extra do seu gestor. Você quer criar um alerta para não se esquecer.
+*print ("alerta de venda acima de R$ 50.000.00 ")
 
 # O que fazer: Crie um programa que recebe o valor de uma venda e, se o valor for maior que 50.000, exibe a mensagem "ALERTA: Negócio precisa de aprovação do gestor!". (Baseado no exercício da multa de velocidade ).
-
+print ("alerta de venda acima de 50.001.00 negocio precisa de aprovaÇão do gestor")
 
 # Exercício 4: Política de Descontos Automática
 # Cenário de Vendas: Sua empresa tem uma política de preços inteligente. Para produtos cujo custo de aquisição é menor que R$ 200,00, a margem de lucro é de 45%. Para custos iguais ou maiores que R$ 200,00, a margem é de 30%, pois são itens de maior giro.
 
+
 # O que fazer: Crie um programa que receba o custo de um produto e calcule o preço final de venda com base nessa regra. (Inspirado no exemplo do comerciante ).
+print('199.00 este é valor do produto com margem o preço final é de 286.00")
+      print("201.00 este é o valor do produto, o comerciante terá um lucro de 261.00 este será o preço final do comerciante")
