@@ -11,7 +11,13 @@
 # Sua Tarefa: Crie um programa que pergunta "Quantos dias faltam para o contrato vencer?". Se o número for 30 ou menos, 
 # ele deve exibir a mensagem: ALERTA DE RENOVAÇÃO: Entrar em contato com este cliente para negociar a renovação!
 
+# Pergunta e anota o número de dias. Usamos int() pois "dias" é um número inteiro.
+dias_para_vencer_string = input("Quantos dias faltam para o contrato vencer?")
+dias_para_vencer = int(dias_para_vencer_string)
 
+# if, elif, else
+if(dias_para_vencer <= 30):
+    print("ALERTA DE RENOVAÇÃO: Entrar em contato com este cliente para negociar a renovação!")
 
 
 # Nível 2 (Revisão): A Escolha de Caminhos (Isso ou Aquilo)
