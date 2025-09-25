@@ -3,11 +3,13 @@
 
 # Exercício: Alerta de Contrato Vencendo
 
-# Cenário de Vendas: Para garantir a renovação, você precisa ser alertado quando um contrato de cliente está prestes a vencer. A regra é: se faltam 30 dias ou menos, o sistema deve te avisar.
+# Cenário de Vendas: Para garantir a renovação, você precisa ser alertado quando um contrato de cliente está prestes a vencer. 
+# A regra é: se faltam 30 dias ou menos, o sistema deve te avisar.
 
 # A Lógica (O "Se... Então..."): SE o número de dias para o contrato vencer for MENOR QUE 31, ENTÃO o sistema deve exibir um alerta.
 
-# Sua Tarefa: Crie um programa que pergunta "Quantos dias faltam para o contrato vencer?". Se o número for 30 ou menos, ele deve exibir a mensagem: ALERTA DE RENOVAÇÃO: Entrar em contato com este cliente para negociar a renovação!
+# Sua Tarefa: Crie um programa que pergunta "Quantos dias faltam para o contrato vencer?". Se o número for 30 ou menos, 
+# ele deve exibir a mensagem: ALERTA DE RENOVAÇÃO: Entrar em contato com este cliente para negociar a renovação!
 
 
 
@@ -17,11 +19,15 @@
 
 # Exercício: Script de Abordagem (Novo Cliente vs. Cliente Antigo)
 
-# Cenário de Vendas: Sua abordagem inicial muda se você está falando com um lead que nunca comprou ou com um cliente que já está na base. Você precisa de um sistema que te dê o script certo.
+# Cenário de Vendas: Sua abordagem inicial muda se você está falando com um lead que nunca comprou ou com um cliente que já está na base.
+# Você precisa de um sistema que te dê o script certo.
 
-# A Lógica (O "Se... Então..."): SE a resposta para "É a primeira compra do cliente?" for "sim", ENTÃO mostre o script de boas-vindas. SENÃO, mostre o script de cliente recorrente.
+# A Lógica (O "Se... Então..."): SE a resposta para "É a primeira compra do cliente?" for "sim", ENTÃO mostre o script de boas-vindas. 
+# SENÃO, mostre o script de cliente recorrente.
 
-# Sua Tarefa: Crie um programa que pergunta: É a primeira compra deste cliente? (s/n). Se o usuário digitar s, o programa exibe Script: "Bem-vindo! Que bom ter você começando com a gente.". Se digitar qualquer outra coisa, exibe Script: "Que bom te ver de volta! Obrigado pela confiança contínua.".
+# Sua Tarefa: Crie um programa que pergunta: É a primeira compra deste cliente? (s/n). Se o usuário digitar s, 
+# o programa exibe Script: "Bem-vindo! Que bom ter você começando com a gente.". Se digitar qualquer outra coisa, 
+# exibe Script: "Que bom te ver de volta! Obrigado pela confiança contínua.".
 
 
 
