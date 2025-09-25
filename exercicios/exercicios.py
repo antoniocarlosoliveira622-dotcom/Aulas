@@ -103,7 +103,10 @@ print('O preço de venda sugerido é: R$ ', preco_venda)
 # A Lógica (O "Se... Então..."): SE o valor da compra for maior que 2000, ENTÃO o sistema deve me alertar para enviar um brinde.
 
 # Sua Tarefa: Crie um programa que pergunta o valor da compra. Se o valor for maior que 2000, ele deve exibir a mensagem: ALERTA: Cliente VIP! Preparar envio de brinde especial.
-
+valorcompra= float(input("gostaria de saber o valor da compra"))
+print(valorcompra)
+if(valorcompra > 2000):
+      print ("é cliente vip")
 # Dicas de Código:
 
 # Use float(input(...)) para capturar o valor da compra, pois pode ter centavos.
@@ -117,14 +120,23 @@ print('O preço de venda sugerido é: R$ ', preco_venda)
 # -----------
 
 # Nível 2: A Escolha de Caminhos (Isso ou Aquilo)
-# Agora, temos dois resultados possíveis para cada decisão. SE a condição for verdadeira, siga o caminho A. SENÃO, siga o caminho B. É a clássica segmentação de leads.
-
+# Agora, temos dois resultados possíveis para cada decisão. SE a condição for verdadeira, siga o caminho A. 
+# SENÃO, siga o caminho B. É a clássica segmentação de leads.
+valorcontrato=float(input("qual é o valor do contrato"))
+if(valorcontrato > 10000):
+      print("o vendedor é senior")
+else:
+      print("o vendedor é junior")
 # Exercício 2: Direcionamento de Lead
-# Cenário de Vendas: Na sua empresa, leads de grande potencial (valor de contrato acima de R$ 10.000,00) são tratados por vendedores seniores. Os demais são tratados por vendedores juniores para qualificação inicial.
+# Cenário de Vendas: Na sua empresa, leads de grande potencial (valor de contrato acima de R$ 10.000,00) 
+# são tratados por vendedores seniores. Os demais são tratados por vendedores juniores 
+# para qualificação inicial.
 
-# A Lógica (O "Se... Então..."): SE o valor potencial do lead for maior que 10.000, ENTÃO encaminhe para a equipe Sênior. SENÃO, encaminhe para a equipe Júnior.
+# A Lógica (O "Se... Então..."): SE o valor potencial do lead for maior que 10.000, 
+# ENTÃO encaminhe para a equipe Sênior. SENÃO, encaminhe para a equipe Júnior.
 
-# Sua Tarefa: Crie um programa que pergunta o valor potencial de um novo lead. Com base no valor, ele deve exibir Direcionar para: Equipe Sênior ou Direcionar para: Equipe Júnior.
+# Sua Tarefa: Crie um programa que pergunta o valor potencial de um novo lead. 
+# Com base no valor, ele deve exibir Direcionar para: Equipe Sênior ou Direcionar para: Equipe Júnior.
 
 # Dicas de Código:
 
@@ -160,6 +172,15 @@ print('O preço de venda sugerido é: R$ ', preco_venda)
 # SENÃO, a prioridade é BAIXA.
 
 # Sua Tarefa: Crie um programa que pergunta o "lead score" (um número de 0 a 100). O programa deve exibir a prioridade e a ação recomendada.
+contatosdodia=float(input("gostaria de saber o leed score de cada programa"))
+if(contatosdodia > 80):
+      print ("se score for acima de 80 a prioridade é alta ligar imediatamente")
+elif(contatosdodia > 51):
+      print ("se o score for  de 51 a 80 a prioridade é media enviar email hoje")
+else:
+      print ("se o score for de 50 ou menos prioridade baixa acionar o fluxo de nutrição")
+
+
 
 # Dicas de Código:
 
