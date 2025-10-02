@@ -35,7 +35,7 @@ if(dias_para_vencer <= 30):
 # o programa exibe Script: "Bem-vindo! Que bom ter você começando com a gente.". Se digitar qualquer outra coisa, 
 # exibe Script: "Que bom te ver de volta! Obrigado pela confiança contínua.".
 
-
+input ("gostaria de saber se este cliente ja comprou um dia da empresa")
 
 
 # Nível 3 (Revisão): Múltiplas Alternativas (Classificação por Níveis)
@@ -60,3 +60,13 @@ if(dias_para_vencer <= 30):
 # SENÃO, não há bônus.
 
 # Sua Tarefa: Crie um programa que pergunta qual porcentagem da meta foi atingida. Ele deve exibir qual o nível de bônus o vendedor receberá.
+
+bonusporpeformance = float(input("Qual á porcentagem da meta foi atingida?"))
+bonusporperformance = int (bonusporpeformance)
+ 
+if(bonusporperformance > 120):
+     print("Se a condição for acima de 120,o bônus é Ouro")
+if(bonusporperformance  >= 100):
+     print("se a condição for entre 100 e 120, o bônus é Prata")
+if(bonusporpeformance < 100):
+     print("se a condição for abaixo de 100, não a bónus")
